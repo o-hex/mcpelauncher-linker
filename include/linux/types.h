@@ -1,4 +1,7 @@
 #pragma once
+#if defined(__ANDROID__)
+#include_next <linux/types.h>
+#else
 #include <stdint.h>
 typedef uint64_t __u64;
 typedef int64_t __s64;
@@ -8,3 +11,4 @@ typedef uint16_t __u16;
 typedef int16_t __s16;
 typedef uint8_t __u8;
 typedef int8_t __s8;
+#endif
