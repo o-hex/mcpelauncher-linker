@@ -1,6 +1,6 @@
 [submodule "bionic"]
 	path = bionic
-	url = https://github.com/minecraft-linux/android_bionic
+	url = https://github.com/o-hex/android_bionic
 [submodule "core"]
 	path = core
-	url = https://github.com/minecraft-linux/android_core
+	url = https://github.com/o-hex/android_core
